@@ -12,10 +12,10 @@ use case is for copy of sensitive files to external (3rd party cloud) storage<br
 
 <p>
 to encrypt a file<br>
-<i><b>java -jar fileToEncrypt outputFile -e</b></i>
+<i><b>java -jar file-encryptor.jar fileToEncrypt outputFile -e</b></i>
 </p>
 
 <p>
 to decrypt a file<br>
-<i><b>java -jar fileToDecrypt outputFile</b></i>
+<i><b>java -jar file-encryptor.jar fileToDecrypt outputFile</b></i>
 </p>
