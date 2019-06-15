@@ -12,20 +12,20 @@ use case is for copy of sensitive files to external (3rd party cloud) storage<br
 
 <p>
 to encrypt a file<br>
-<i><b>java -jar fileToEncrypt</b></i>
+<i><b>java -jar file-encryptor.jar fileToEncrypt</b></i>
 </p>
 
 <p>
 to decrypt a file<br>
-<i><b>java -jar fileToDecrypt -d</b></i>
+<i><b>java -jar file-encryptor.jar -d fileToDecrypt</b></i>
 </p>
 
 <p>
-to create and encrypted copy of a file<br>
-<i><b>java -jar fileToEncrypt outputFileName</b></i>
+to create an encrypted copy of a file<br>
+<i><b>java -jar file-encryptor.jar fileToEncrypt outputFileName</b></i>
 </p>
 
 <p>
-to create and encrypted copy of a file<br>
-<i><b>java -jar fileToDencrypt outputFileName -d</b></i>
+to create an encrypted copy of a file<br>
+<i><b>java -jar file-encryptor.jar -d fileToDecrypt outputFileName</b></i>
 </p>
